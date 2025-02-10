@@ -1,6 +1,7 @@
 nav ul {
     list-style-type: none;
     li {
+        margin-left: 1%;
         float:left;
     }
 }
