@@ -1,0 +1,25 @@
+{
+    "categories": [
+        {
+            "id": "concepts",
+            "title": "Concepts",
+            "articles": [
+                {
+                    "id": "lacryma",
+                    "title": "Lacryma",
+                    "body": "content..."
+                },
+                {
+                    "id": "saisons",
+                    "title": "Saisons",
+                    "body": "..."
+                },
+                {
+                    "id": "saisons/ete",
+                    "title": "Saisons: Été",
+                    "body": "..."
+                }
+            ]
+        }
+    ]
+}
