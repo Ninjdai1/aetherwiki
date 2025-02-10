@@ -13,11 +13,11 @@ jobs:
         uses: actions/checkout@v1
 
       - name: Generate your awesome content
-        run: mkdir www/
+        run: mkdir www/ && mv index.* www/ && mv assets/ www/ && mv css/ www/
 
       - name: Publish generated content to GitHub Pages
         uses: tsunematsu21/actions-publish-gh-pages@v1.0.2
         with:
-          dir: /
+          dir: ww/
           branch: gh-pages
           token: ${{ secrets.ACCESS_TOKEN }}
