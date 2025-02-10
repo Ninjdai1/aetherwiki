@@ -1,4 +1,5 @@
 nav ul {
+    display: flex;
     list-style-type: none;
     li {
         margin-left: 1%;
