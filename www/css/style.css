@@ -12,6 +12,15 @@
 
     header {
         grid-area: header;
+        text-align: center;
+        justify-content: space-between;
+        display: flex;
+        
+        #logo{
+        width: 5%;
+        height: auto;
+        border-radius: 15%;
+        }
     }
     nav {
         grid-area: navbar; 
@@ -41,13 +50,16 @@
         }
     }
     aside {
-        grid-area: aside;  
+        grid-area: aside; 
+        text-align: center;
     }
     section {
         grid-area: content;
+        text-align: center;
     }
     footer {
         grid-area: footer;
+        text-align: center;
     }
 }
 
