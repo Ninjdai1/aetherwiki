@@ -55,7 +55,6 @@
     }
     section {
         grid-area: content;
-        text-align: center;
     }
     footer {
         grid-area: footer;
