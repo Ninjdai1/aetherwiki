@@ -1,25 +1,59 @@
 {
-    "categories": [
-        {
-            "id": "concepts",
-            "title": "Concepts",
-            "articles": [
+    "articles": {
+        "lacryma": {
+            "title": "Lacryma",
+            "category": "concepts",
+            "sections": [
                 {
-                    "id": "lacryma",
-                    "title": "Lacryma",
-                    "body": "content..."
+                    "title": "Titre de la section n°1",
+                    "content": "<p>UwU :3<br/>Je suis la section n°1</p>"
                 },
                 {
-                    "id": "saisons",
-                    "title": "Saisons",
-                    "body": "..."
+                    "title": "Titre de la section n°2",
+                    "content": "<p>OwO :0<br/>Je suis la section n°2</p>"
                 },
                 {
-                    "id": "saisons/ete",
-                    "title": "Saisons: Été",
-                    "body": "..."
+                    "title": "Titre de la section n°3",
+                    "content": [
+                        "<p>ZwZ :1<br/>Je suis la section n°3<br/><br/>Je suis plus longue que les autres...<br/>Peut-être pour des raisons de test ?</p>",
+                        "<p>Num igitur utiliorem tibi hunc Triarium putas esse posse, quam si tua sint Puteolis granaria? Quodsi, ne quo incommodo afficiare, non relinques amicum, tamen, ne sine fructu alligatus sis, ut moriatur optabis. </p>",
+                        "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Stoicos roga. Graecis hoc modicum est: Leonidas, Epaminondas, tres aliqui aut quattuor; Et quidem illud ipsum non nimium probo et tantum patior, philosophum loqui de cupiditatibus finiendis. Duo Reges: constructio interrete. Ne id quidem, nisi multa annorum intercesserint milia, ut omnium siderum eodem, unde profecta sint, fiat ad unum tempus reversio. Ratio ista, quam defendis, praecepta, quae didicisti, quae probas, funditus evertunt amicitiam, quamvis eam Epicurus, ut facit, in caelum efferat laudibus. Atqui si, ut convenire debet inter nos, est quaedam appetitio naturalis ea, quae secundum naturam sunt, appetens, eorum omnium est aliquae summa facienda. -delector enim, quamquam te non possum, ut ais, corrumpere, delector, inquam, et familia vestra et nomine. Ut enim consuetudo loquitur, id solum dicitur honestum, quod est populari fama gloriosum. Expectoque quid ad id, quod quaerebam, respondeas. </p>",
+                        "<p>An me, inquis, tam amentem putas, ut apud imperitos isto modo loquar? Quo studio cum satiari non possint, omnium ceterarum rerum obliti níhil abiectum, nihil humile cogitant; Scientiam pollicentur, quam non erat mirum sapientiae cupido patria esse cariorem. Ut nemo dubitet, eorum omnia officia quo spectare, quid sequi, quid fugere debeant? Huic ego, si negaret quicquam interesse ad beate vivendum quali uteretur victu, concederem, laudarem etiam; Idem fecisset Epicurus, si sententiam hanc, quae nunc Hieronymi est, coniunxisset cum Aristippi vetere sententia. Haec bene dicuntur, nec ego repugno, sed inter sese ipsa pugnant. </p>",
+                        "<p>Aliter homines, aliter philosophos loqui putas oportere? Itaque illa non dico me expetere, sed legere, nec optare, sed sumere, contraria autem non fugere, sed quasi secernere. Sed quoniam et advesperascit et mihi ad villam revertendum est, nunc quidem hactenus; Cognitio autem haec est una nostri, ut vim corporis animique norimus sequamurque eam vitam, quae rebus iis ipsis perfruatur. Atque haec ita iustitiae propria sunt, ut sint virtutum reliquarum communia. Nam illud quidem adduci vix possum, ut ea, quae senserit ille, tibi non vera videantur. Aut, Pylades cum sis, dices te esse Orestem, ut moriare pro amico? Atque his de rebus et splendida est eorum et illustris oratio. </p>",
+                        "<p>Et hanc quidem primam exigam a te operam, ut audias me quae a te dicta sunt refellentem. Erillus autem ad scientiam omnia revocans unum quoddam bonum vidit, sed nec optimum nec quo vita gubernari possit. Hic quoque suus est de summoque bono dissentiens dici vere Peripateticus non potest. Sed vobis voluptatum perceptarum recordatio vitam beatam facit, et quidem corpore perceptarum. Quae cum praeponunt, ut sit aliqua rerum selectio, naturam videntur sequi; Perturbationes autem nulla naturae vi commoventur, omniaque ea sunt opiniones ac iudicia levitatis. Videmus igitur ut conquiescere ne infantes quidem possint. At iste non dolendi status non vocatur voluptas. Similiter sensus, cum accessit ad naturam, tuetur illam quidem, sed etiam se tuetur; Si enim non fuit eorum iudicii, nihilo magis hoc non addito illud est iudicatum-. </p>",
+                        "<p>Et hanc quidem primam exigam a te operam, ut audias me quae a te dicta sunt refellentem. Hoc mihi cum tuo fratre convenit. Item de contrariis, a quibus ad genera formasque generum venerunt. Coniunctio autem cum honestate vel voluptatis vel non dolendi id ipsum honestum, quod amplecti vult, id efficit turpe. Verba tu fingas et ea dicas, quae non sentias? At enim iam dicitis virtutem non posse constitui, si ea, quae extra virtutem sint, ad beate vivendum pertineant. Illorum vero ista ipsa quam exilia de virtutis vi! Quam tantam volunt esse, ut beatum per se efficere possit. Quasi vero, inquit, perpetua oratio rhetorum solum, non etiam philosophorum sit. Quid loquor de nobis, qui ad laudem et ad decus nati, suscepti, instituti sumus? Tum Piso: Atqui, Cicero, inquit, ista studia, si ad imitandos summos viros spectant, ingeniosorum sunt; </p>"
+                    ]
+                },
+                {
+                    "title": "Titre de la section n°4",
+                    "content": "<p>TwT :5<br/>Je suis la section n°4</p>"
+                }
+            ]
+        },
+        "saisons": {
+            "title": "Saisons",
+            "category": "concepts",
+            "sections": [
+                {
+                    "title": "Main",
+                    "content": "<p>Les saisons sont les suivantes: A, B, C et D.</p>"
+                }
+            ]
+        },
+        "saisons/ete": {
+            "title": "Saisons: Été",
+            "category": "concepts",
+            "sections": [
+                {
+                    "title": "UwU",
+                    "content": "<p>jaaj</p>"
                 }
             ]
         }
-    ]
+    },
+    "categories": {
+        "concepts": {
+            "title": "Concepts"
+        }
+    }
 }
