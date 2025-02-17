@@ -50,8 +50,10 @@
         }
     }
     aside {
-        grid-area: aside; 
-        text-align: center;
+        grid-area: aside;
+        #summary {
+            list-style: none;
+        }
     }
     article {
         grid-area: content;
