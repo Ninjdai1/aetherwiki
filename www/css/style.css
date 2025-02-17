@@ -9,71 +9,78 @@
     gap: 0.25%;
     grid-template-columns: 20% 80%;
     background-color: #ec89d1;
-
-    header {
-        grid-area: header;
-        text-align: center;
-        justify-content: space-between;
-        display: flex;
-        
-        #logo {
-        width: 5%;
-        height: auto;
-        border-radius: 15%;
-        }
-
-        #header_title {
-            font-size: 170%;
-            font-weight: 900;
-        }
-    }
-    nav {
-        grid-area: navbar; 
-        border: 2px solid #eeeeee;
-        ul {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: space-between;
-            li {
-                button {
-                    display: block;
-                    border: 2px solid rgb(10 200 100);
-                    border-radius: 5px;
-                    background-color: rgb(10 200 100 / 0.2);
-                    padding: 10px;
-                }
-                button:hover {
-                    cursor: pointer;
-                }
-                a {
-                    text-decoration: none;
-                    color: #000;
-                }
-            }
-        }
-    }
-    aside {
-        grid-area: aside;
-        #summary {
-            list-style: none;
-        }
-    }
-    article {
-        grid-area: content;
-
-        .title {
-            text-align: center;
-        }
-    }
-    footer {
-        grid-area: footer;
-        text-align: center;
-    }
 }
 
 .show_grid {
     background-color: #e96363;
     padding: 10px;
 }
+
+header {
+    grid-area: header;
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+} 
+
+nav {
+    grid-area: navbar; 
+    border: 2px solid #eeeeee;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+nav li button {
+    display: block;
+    border: 2px solid rgb(10 200 100);
+    border-radius: 5px;
+    background-color: rgb(10 200 100 / 0.2);
+    padding: 10px;
+}
+
+nav li button:hover {
+    cursor: pointer;
+}
+
+nav li button a {
+    text-decoration: none;
+    color: #000;
+}
+
+aside {
+    grid-area: aside;
+}
+
+article {
+    grid-area: content;
+}
+
+article h1.title {
+    text-align: center;
+}
+
+footer {
+    grid-area: footer;
+    text-align: center;
+}
+
+#logo {
+    width: 5%;
+    height: auto;
+    border-radius: 15%;
+}
+
+#header_title {
+    font-size: 170%;
+    font-weight: 900;
+}
+
+#summary {
+    list-style: none;
+}
+
