@@ -3,13 +3,24 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Aetherebirth wiki</title>
+        <title>About</title>
         <link href="css/normalize.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
         <script src="js/index.js"></script>
         <link rel="icon" href="assets/images/logo.png" type="image/x-icon">
-    </head>
+        <style>
+            .container {
+                grid-template-areas:
+                "header header"
+                "navbar navbar"
+                "content content"
+                "footer footer";
+            }
+       </style>
 
+
+    </head>
+ 
     <body>
         <div class="container">
 
@@ -29,24 +40,22 @@
                 </ul>
             </nav>
 
-            <aside class="show_grid">
-                <ul id="summary"></ul>
-            </aside>
-
-            <article class="show_grid" id="main_content">
-                <h1 class="title">Aetherwiki</h1>
+           <article class="show_grid" id="main_content">
+                <h1 class="title">
+                    Aetherwiki
+                </h1>
                 
                 <p>Le texte est trop bien !!</p>
 
                 <section>
-                    <h2 class="section_title">Présentation</h2>
+                    <h2>Présentation</h2>
                     <p>Aetherwiki est un projet d'encyclopédie en ligne créé par Avril Papillon et Mathieu Tuloup en 2025 à l'occasion d'un cours de Techno Web Client dispensé par l'Université Clermont Auvergne.<br>
                     Elle a pour but de rassembler les informations connues du lore du monde fictif d'Aetherebirth.
                     </p>
                 </section>
 
                 <section>
-                    <h2 class="section_title">Lore</h2>
+                    <h2>Lore</h2>
                     <p>Lore : arrière-plan historique et culturel d'un univers fictionnel.<br>
                     Le lore d'Aetherebirth est majoritairement rédigé par Carlos Cermelli. Il est complémenté et révisé par tous les membres du projet.
                     </p>

@@ -16,10 +16,15 @@
         justify-content: space-between;
         display: flex;
         
-        #logo{
+        #logo {
         width: 5%;
         height: auto;
         border-radius: 15%;
+        }
+
+        #header_title {
+            font-size: 170%;
+            font-weight: 900;
         }
     }
     nav {
