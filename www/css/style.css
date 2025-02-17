@@ -14,7 +14,31 @@
         grid-area: header;
     }
     nav {
-        grid-area: navbar;
+        grid-area: navbar; 
+        border: 2px solid #eeeeee;
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-between;
+            li {
+                button {
+                    display: block;
+                    border: 2px solid rgb(10 200 100);
+                    border-radius: 5px;
+                    background-color: rgb(10 200 100 / 0.2);
+                    padding: 10px;
+                }
+                button:hover {
+                    cursor: pointer;
+                }
+                a {
+                    text-decoration: none;
+                    color: #000;
+                }
+            }
+        }
     }
     aside {
         grid-area: aside;  
