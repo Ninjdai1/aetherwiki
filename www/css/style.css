@@ -7,11 +7,17 @@ nav {
         display: flex;
         justify-content: space-between;
         li {
-            display: block;
-            border: 2px solid rgb(10 200 100);
-            border-radius: 5px;
-            background-color: rgb(10 200 100 / 0.2);
-            padding: 10px;
+            button {
+                display: block;
+                border: 2px solid rgb(10 200 100);
+                border-radius: 5px;
+                background-color: rgb(10 200 100 / 0.2);
+                padding: 10px;
+            }
+            button:hover {
+                border: 2px solid rgb(10 200 000);
+                cursor: pointer;
+            }
             a {
                 text-decoration: none;
                 color: #000;
