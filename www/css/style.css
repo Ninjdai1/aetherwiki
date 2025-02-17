@@ -53,8 +53,12 @@
         grid-area: aside; 
         text-align: center;
     }
-    section {
+    article {
         grid-area: content;
+
+        .title {
+            text-align: center;
+        }
     }
     footer {
         grid-area: footer;
