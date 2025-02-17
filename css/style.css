@@ -13,9 +13,11 @@ header {
     padding: 0.5%;
     align-items: center;
     justify-content: center;
+
     h1 {
         text-align: center;
     }
+
     img {
         width: 2.5%;
         height: 2.5%;
